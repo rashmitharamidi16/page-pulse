@@ -185,7 +185,19 @@ const scoreColor =
           </>
         )}
 
-      </div>
+           </div>
+
+      <footer className="text-center text-gray-500 text-sm py-6 mt-10">
+        Built for{" "}
+        <a
+          href="https://digitalheroesco.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 hover:underline"
+        >
+          Digital Heroes Training Task
+        </a>
+      </footer>
 
     </div>
   );

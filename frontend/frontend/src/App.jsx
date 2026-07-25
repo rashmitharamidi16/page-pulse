@@ -16,7 +16,7 @@ export default function App() {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/api/analyze",
+        "https://page-pulse-backend-4ank.onrender.com/api/analyze",
         { url }
       );
 
